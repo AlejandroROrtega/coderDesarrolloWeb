@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+/* font-family: 'Nunito', sans-serif */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ADE8F4;
+}
+
+/* HEADER */
+
+.header {
+    background: radial-gradient(#00B4D8, #0096C7, #023E8A);
+    border-bottom: 6px solid #0077B6;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logo {
+    padding: 0 25px;
+}
+
+.logo a img {
+    width: 125px;
+    height: auto;
+}
+
+.navbarHeader {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.navbarHeader li {
+    padding: 0 25px;
+}
+
+.navbarHeader li a {
+    text-decoration: none;
+    color: #CAF0F8;
+}
+
+.navbarLinks:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.botonRegistro {
+    width: 150px;
+    height: 65px;
+    border: 1px solid #90E0EF;
+    background-color: #0096C7;
+    border-radius: 12px;
+    font-size: 18px;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 0 20px;
+    transition: all 0.4s;
+}
+
+.botonRegistro:hover {
+    width: 155px;
+    height: 70px;
+    background-color: #0077B6;
+}
+
+/* FOOTER */
+
+.footer {
+    background: radial-gradient(#00B4D8, #0096C7, #023E8A);
+    border-top: 6px solid #0077B6;
+}
+
+.navbarFooter {
+    padding: 35px 10px;
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.navbarFooter li {
+    padding: 0 25px;
+}
+
+.navbarFooter li a {
+    text-decoration: none;
+    color: #CAF0F8;
+}
+
+/* Multiuso */
+
+.subtitulos {
+    text-align: center;
+    padding: 25px 0;
+    font-size: 55px;
+    color: #023E8A;
+}
+
+.borderRadius {
+    border-radius: 6px;
+}
+
+/* PÁGINA INDEX */
+
+.contenedorJuegosDestacados {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorJuegosDestacados .fila1 img {
+    width: 800px;
+    height: 400px;
+}
+
+.contenedorJuegosDestacados .fila2 img {
+    width: 400px;
+    height: 200px;
+}
+
+.contenedorProximamente {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoIndex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.videoIndex iframe {
+    box-shadow: 0px 0px 6px 1px #000;
+}
+
+/* PÁGINO ESPORTS */
+
+.reglamento {
+    margin: 30px 0;
+}
+
+.worldFlex {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.shadowCopa {
+    box-shadow: 0px 0px 10px 3px #3BA3C5;
+}
+
+.teamsFila {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.introduccionReglas {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+.reglamentoList {
+    list-style-type: disc;
+    margin: 5px 30px;
+}
+
+/* PÁGINA REGISTRO */
+
+.cajaRegistro {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.cajaRegistro form {
+    margin: 15px 0;
+}
+
+.inputRegistro {
+    display: block;
+    margin: 7px auto;
+}
+
+.cajaRegistro .labelForm {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox {
+    margin: 7px;
+}
+
+.botonEnviar {
+    display: block;
+    margin: 7px auto;
+    padding: 10px 45px;
+}
+
+/* PÁGINA JUEGOS */
+
+.juegosFila {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 35px;
+    margin: 35px;
+}
+
+.shadowJuegos {
+    box-shadow: -6px -6px 19px 0px #023E8A;
+}
+
+.tituloJuegos {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.generoJuegos {
+    font-weight: bold;
+}
+
+/* PÁGINA NOTICIAS */
+
+.noticiasMain {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.noticiasFila {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 35px;
+    margin: 35px;
+}
+
+/* MEDIA QUERIES */
