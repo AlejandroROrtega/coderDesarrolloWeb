@@ -54,49 +54,21 @@
 .subtitulos {
     text-align: center;
     padding: 25px 0;
-    font-size: 55px;
+    font-size: 30px;
     color: #023E8A;
-}
-
-.borderRadius {
-    border-radius: 6px;
+    font-weight: 700;
 }
 
 /* PÁGINA INDEX */
-
-.contenedorJuegosDestacados {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedorJuegosDestacados .fila1 img {
-    width: 400px;
-    height: 200px;
-}
-
-.contenedorJuegosDestacados .fila2 img {
-    width: 200px;
-    height: 100px;
-}
-
-.contenedorProximamente {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedorProximamente img {
+.row div img {
     width: 400px;
     height: 200px;
 }
 
 .videoIndex {
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
     padding: 25px 0;
 }
 
