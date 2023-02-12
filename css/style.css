@@ -1,100 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
 /* font-family: 'Nunito', sans-serif */
 
-* {
+/* * {
     padding: 0;
     margin: 0;
-}
+} */
 
 .body {
     font-family: 'Nunito', sans-serif;
-    background-color: #ADE8F4;
+    background: linear-gradient(to bottom, #90E0EF, #ADE8F4, #CAF0F8, #ADE8F4, #90E0EF)
 }
 
 /* HEADER */
 
 .header {
-    background: radial-gradient(#00B4D8, #0096C7, #023E8A);
-    border-bottom: 6px solid #0077B6;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-    font-size: 30px;
+    background: linear-gradient(to right, #90E0EF, #ADE8F4, #CAF0F8);
 }
 
-.logo {
-    padding: 0 25px;
+.container-fluid img {
+    width: 110px;
+    margin-left: 15px;
+    filter: grayscale(40%);
+    transition: all 0.2s;
 }
 
-.logo a img {
-    width: 125px;
-    height: auto;
+.container-fluid img:hover {
+    filter: grayscale(0%);
 }
 
-.navbarHeader {
-    list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.navbarHeader li {
-    padding: 0 25px;
-}
-
-.navbarHeader li a {
-    text-decoration: none;
-    color: #CAF0F8;
-}
-
-.navbarLinks:hover {
-    text-decoration: underline;
-    color: #ffffff;
-}
-
-.botonRegistro {
-    width: 150px;
-    height: 65px;
-    border: 1px solid #90E0EF;
-    background-color: #0096C7;
-    border-radius: 12px;
-    font-size: 18px;
-    color: whitesmoke;
-    cursor: pointer;
-    margin: 0 20px;
-    transition: all 0.4s;
-}
-
-.botonRegistro:hover {
-    width: 155px;
-    height: 70px;
-    background-color: #0077B6;
+.navbar-nav li {
+    font-weight: 500;
+    font-size: 19px;
+    padding: 0 7px;
 }
 
 /* FOOTER */
 
-.footer {
-    background: radial-gradient(#00B4D8, #0096C7, #023E8A);
-    border-top: 6px solid #0077B6;
+.container {
+    margin-top: 30px;
 }
 
-.navbarFooter {
-    padding: 35px 10px;
-    list-style-type: none;
-    font-size: 20px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+.container footer ul {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-.navbarFooter li {
-    padding: 0 25px;
-}
-
-.navbarFooter li a {
-    text-decoration: none;
-    color: #CAF0F8;
+.hrFooter {
+    margin: 10px;
 }
 
 /* Multiuso */
@@ -120,13 +72,13 @@
 }
 
 .contenedorJuegosDestacados .fila1 img {
-    width: 800px;
-    height: 400px;
+    width: 400px;
+    height: 200px;
 }
 
 .contenedorJuegosDestacados .fila2 img {
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
 }
 
 .contenedorProximamente {
@@ -134,6 +86,11 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+}
+
+.contenedorProximamente img {
+    width: 400px;
+    height: 200px;
 }
 
 .videoIndex {
