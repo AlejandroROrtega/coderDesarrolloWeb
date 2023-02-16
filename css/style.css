@@ -14,7 +14,7 @@
 /* HEADER */
 
 .header {
-    background: linear-gradient(to right, #90E0EF, #ADE8F4, #CAF0F8);
+    background: linear-gradient(to right, #90E0EF, #ADE8F4, #CAF0F8, #ADE8F4, #90E0EF);
 }
 
 .container-fluid img {
@@ -179,6 +179,11 @@
     align-items: center;
     gap: 35px;
     margin: 35px;
+}
+
+.imgNoticias {
+    width: 400px;
+    height: 400px;
 }
 
 /* MEDIA QUERIES */
