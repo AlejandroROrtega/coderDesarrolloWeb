@@ -1,0 +1,86 @@
+//font-family: 'Nunito', sans-serif
+
+@import "https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap";
+
+// *
+
+.body {
+	font-family: $font-family_1;
+	background: linear-gradient(to bottom, #90E0EF, #ADE8F4, #CAF0F8, #ADE8F4, #90E0EF);
+}
+.subtitulos {
+	text-align: center;
+	padding: 20px 0;
+	margin: 0;
+	font-size: 30px;
+	color: $color_1;
+	font-weight: 700;
+}
+
+//PAGINA ESPORTS
+
+.reglamento {
+	margin: 30px 0;
+}
+.worldFlex {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+.introduccionReglas {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px 20px;
+}
+.reglamentoList {
+	list-style-type: disc;
+	margin: 5px 30px;
+}
+
+//PAGINA JUEGOS
+
+.juegosFila {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	gap: 35px;
+	margin: 35px;
+}
+.tituloJuegos {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 5px 0;
+}
+.generoJuegos {
+	font-weight: bold;
+}
+
+//PAGINA NOTICIAS
+
+.noticiasMain {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.noticiasFila {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 35px;
+	margin: 35px;
+}
+.h4Noticia {
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 23px;
+}
+.h5Noticia {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 19px;
+}

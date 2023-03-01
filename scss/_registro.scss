@@ -1,0 +1,27 @@
+//ESTILO Y PARTIAL PROVISIONAL
+.cajaRegistro {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	form {
+		margin: 15px 0;
+	}
+	.labelForm {
+		font-size: 15px;
+		font-weight: bold;
+		display: flex;
+		justify-content: center;
+	}
+}
+.inputRegistro {
+	display: block;
+	margin: 7px auto;
+}
+.checkbox {
+	margin: 7px;
+}
+.botonEnviar {
+	display: block;
+	margin: 7px auto;
+	padding: 10px 45px;
+}

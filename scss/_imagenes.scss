@@ -1,0 +1,35 @@
+//INDEX
+.imgIndex {
+	width: 400px;
+	height: 200px;
+}
+.videoIndex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 0;
+	iframe {
+		box-shadow: 0px 0px 6px 1px #000;
+	}
+}
+
+//ESPORTS
+.imgEquipos {
+	width: 200px;
+	height: 200px;
+}
+
+//JUEGOS
+.shadowJuegos {
+	box-shadow: -6px -6px 19px 0px #023E8A;
+}
+
+//NOTICIAS
+.imgNoticias {
+	width: 450px;
+	height: 450px;
+}
+.imgNewNoticia {
+	margin-top: 10px;
+	box-shadow: 2px 2px 10px 1px #000;
+}
