@@ -36,20 +36,30 @@
 
 .juegosFila {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column wrap;
   align-items: center;
-  gap: 35px;
+  gap: 25px;
   margin: 35px;
 }
 
 .tituloJuegos {
   font-weight: bold;
   font-size: 30px;
-  margin: 5px 0;
+  margin: 10px 0;
+  text-align: center;
 }
 
 .generoJuegos {
   font-weight: bold;
+  text-align: center;
+}
+
+.descriptionProximos {
+  text-align: center;
+}
+
+.fechaProximos {
+  text-align: center;
 }
 
 .noticiasMain {
@@ -135,8 +145,8 @@
   height: 200px;
 }
 
-.shadowJuegos {
-  box-shadow: -6px -6px 19px 0px #023E8A;
+.imgJuegos {
+  box-shadow: 2px 2px 10px 1px #000;
 }
 
 .imgNoticias {
