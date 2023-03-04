@@ -1,0 +1,13 @@
+@mixin parrafoCentrado {
+    text-align: center;
+    font-size: 17px;
+}
+
+@mixin subtitulos {
+    text-align: center;
+	padding: 20px 0;
+	margin: 0;
+	font-size: 30px;
+	color: $color_1;
+	font-weight: 700;
+}

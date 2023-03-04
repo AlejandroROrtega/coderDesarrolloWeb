@@ -9,12 +9,20 @@
 	background: linear-gradient(to bottom, #90E0EF, #ADE8F4, #CAF0F8, #ADE8F4, #90E0EF);
 }
 .subtitulos {
+	@include subtitulos;
+}
+
+.btnTop {
+	position: fixed;
+	width: 40px;
+	height: 40px;
 	text-align: center;
-	padding: 20px 0;
-	margin: 0;
-	font-size: 30px;
+	right: 25px;
+	bottom: 25px;
+	background-color: $color_btn_top;
 	color: $color_1;
-	font-weight: 700;
+	border: solid 1px lightslategray;
+	opacity: 70%;
 }
 
 //PAGINA ESPORTS
@@ -54,15 +62,15 @@
 }
 .generoJuegos {
 	font-weight: bold;
-	text-align: center;
+	@include parrafoCentrado;
 }
 
 .descriptionProximos {
-	text-align: center;
+	@include parrafoCentrado;
 }
 
 .fechaProximos {
-	text-align: center;
+	@include parrafoCentrado;
 }
 
 //PAGINA NOTICIAS

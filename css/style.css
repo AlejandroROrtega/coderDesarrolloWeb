@@ -13,6 +13,19 @@
   font-weight: 700;
 }
 
+.btnTop {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  right: 25px;
+  bottom: 25px;
+  background-color: #90D1F0;
+  color: #023E8A;
+  border: solid 1px lightslategray;
+  opacity: 70%;
+}
+
 .reglamento {
   margin: 30px 0;
 }
@@ -52,14 +65,17 @@
 .generoJuegos {
   font-weight: bold;
   text-align: center;
+  font-size: 17px;
 }
 
 .descriptionProximos {
   text-align: center;
+  font-size: 17px;
 }
 
 .fechaProximos {
   text-align: center;
+  font-size: 17px;
 }
 
 .noticiasMain {
@@ -190,6 +206,10 @@
 }
 
 @media (max-width: 576px) {
+  .imgIndex {
+    width: 80vw;
+    height: auto;
+  }
   .imgNoticias {
     width: 300px;
     height: 300px;
@@ -206,8 +226,15 @@
     right: 0;
     box-shadow: 2px 2px 10px 1px #000;
   }
+  .btnTop {
+    display: none;
+  }
 }
 @media (min-width: 577px) and (max-width: 768px) {
+  .imgIndex {
+    width: 500px;
+    height: 250px;
+  }
   .noticiasMain {
     flex-flow: column nowrap;
     gap: 40px;
@@ -219,9 +246,16 @@
     left: 0;
     right: 0;
     box-shadow: 2px 2px 10px 1px #000;
+  }
+  .btnTop {
+    display: none;
   }
 }
 @media (min-width: 769px) and (max-width: 1200px) {
+  .imgIndex {
+    width: 680px;
+    height: 340px;
+  }
   .noticiasMain {
     flex-flow: column nowrap;
     gap: 40px;
@@ -233,6 +267,16 @@
     left: 0;
     right: 0;
     box-shadow: 2px 2px 10px 1px #000;
+  }
+}
+@media (min-width: 1200px) {
+  .imgIndex {
+    width: 350px;
+    height: 175px;
+  }
+  .imgIndexAjuste {
+    width: 500px;
+    height: 250px;
   }
 }
 
