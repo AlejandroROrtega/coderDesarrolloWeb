@@ -26,6 +26,24 @@
   opacity: 70%;
 }
 
+.aTop {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007844;
+  color: #fff;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.aTop:hover {
+  opacity: 1;
+}
+
 .reglamento {
   margin: 30px 0;
 }
@@ -109,6 +127,18 @@
   font-size: 19px;
 }
 
+.noticiasBuff {
+  color: #198754;
+}
+
+.noticiasNerf {
+  color: #dc3545;
+}
+
+.noticiasBalances {
+  color: #ffa400;
+}
+
 .header {
   background: linear-gradient(to right, #90E0EF, #ADE8F4, #CAF0F8, #ADE8F4, #90E0EF);
 }
@@ -173,36 +203,6 @@
 .imgNewNoticia {
   margin-top: 10px;
   box-shadow: 2px 2px 10px 1px #000;
-}
-
-.cajaRegistro {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-.cajaRegistro form {
-  margin: 15px 0;
-}
-.cajaRegistro .labelForm {
-  font-size: 15px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-}
-
-.inputRegistro {
-  display: block;
-  margin: 7px auto;
-}
-
-.checkbox {
-  margin: 7px;
-}
-
-.botonEnviar {
-  display: block;
-  margin: 7px auto;
-  padding: 10px 45px;
 }
 
 @media (max-width: 576px) {

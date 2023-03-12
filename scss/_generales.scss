@@ -25,6 +25,24 @@
 	opacity: 70%;
 }
 
+.aTop {
+	display: inline-block;
+  	padding: 8px 16px;
+  	background-color: #007844;
+  	color: #fff;
+  	text-decoration: none;
+  	position: fixed;
+  	bottom: 20px;
+  	right: 20px;
+  	opacity: 0.7;
+  	transition: opacity 0.3s ease-in-out;
+	border-radius: 10px;
+}
+
+.aTop:hover {
+	opacity: 1;
+}
+
 //PAGINA ESPORTS
 
 .reglamento {
@@ -101,4 +119,16 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 19px;
+}
+
+.noticiasBuff {
+	color: $color_buff;
+}
+
+.noticiasNerf {
+	color: $color_nerf;
+}
+
+.noticiasBalances {
+	color: $color_balances;
 }
