@@ -1,6 +1,4 @@
 # DESARROLLO WEB
-Alejandro Ortega.
-Alias: Akelsnt.
 ---------------------------
 Proyecto para Coder House. Curso desarrollo web.
 
